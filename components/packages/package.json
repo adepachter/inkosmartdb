@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_packages_packages",
+  "info": {
+    "name": "package",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "lineNo": {
+      "type": "integer"
+    },
+    "shipmentLineId": {
+      "type": "string"
+    },
+    "airwaybillNumber": {
+      "type": "string"
+    },
+    "packageType": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "quantity": {
+      "type": "string"
+    },
+    "measurements": {
+      "type": "json"
+    }
+  }
+}

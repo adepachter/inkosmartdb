@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "name": "Order",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "OrderID": {
+      "type": "uid"
+    },
+    "receiver": {
+      "type": "component",
+      "repeatable": false,
+      "component": "addresses.address"
+    },
+    "sender": {
+      "type": "component",
+      "repeatable": false,
+      "component": "addresses.address"
+    },
+    "anonymous": {
+      "type": "boolean"
+    },
+    "reference": {
+      "type": "string"
+    },
+    "package": {
+      "type": "component",
+      "repeatable": true,
+      "component": "packages.package"
+    }
+  }
+}

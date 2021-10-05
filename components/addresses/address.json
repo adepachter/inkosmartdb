@@ -1,0 +1,52 @@
+{
+  "collectionName": "components_addresses_addresses",
+  "info": {
+    "name": "address",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "contact": {
+      "type": "string"
+    },
+    "houseNo": {
+      "type": "string"
+    },
+    "addressLine1": {
+      "type": "string"
+    },
+    "addressLine2": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "addressLine3": {
+      "type": "string"
+    },
+    "zipCode": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "accountNumber": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "telNo": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    }
+  }
+}
